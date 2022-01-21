@@ -1,3 +1,3 @@
-# Kokoa Clone 2022 Update
+# Kokoa Clone 2022
 
-CSS got so much better!
+Starting Kokoa Clone 2022!
