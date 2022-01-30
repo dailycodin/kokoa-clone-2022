@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  1% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.chat-box .user-component {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.chat-box .user-component:hover {
+  background-color: whitesmoke;
+}
