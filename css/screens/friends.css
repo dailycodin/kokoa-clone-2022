@@ -61,7 +61,22 @@
   font-size: 132px;
   z-index: 3;
   animation: hideSplashScreen 0.6s ease-in-out forwards;
-  animation-delay: 0.8s;
+  animation-delay: 1.5s;
+}
+
+@keyframes splashScreenAni {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+#splash-screen i {
+  animation: splashScreenAni 1s ease-in-out forwards;
 }
 
 .friends-screen .user-component {
